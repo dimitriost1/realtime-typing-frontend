@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const connectWebSocket = () => {
-      ws.current = new WebSocket("ws://localhost:8080");
+      ws.current = new WebSocket(`ws://${window.location.hostname}:8081`);
 
       ws.current.onopen = () => {
         console.log("Connected to WebSocket server");
