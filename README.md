@@ -1,5 +1,8 @@
 # Instructions to run the project locally
 
+after you download the project run on the root folder the command:
+npm install
+
 to run the project run the following command in the root of the project:
 npm run dev
 
